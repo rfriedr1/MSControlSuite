@@ -1,0 +1,24 @@
+message "this is a test"
+wait 2
+
+message "starting subscript"
+
+close 2
+
+open_script subscript.txt
+
+
+wait 10
+stop_and_wait test1
+wait 2
+
+message "subscript finished"
+
+plot_open plot1
+plot_xlabel plot1 analysis_time
+plot_ylabel plot1 detector_signal
+
+
+plot_open plot2
+plot_xlabel plot2 analysis_time2
+plot_ylabel plot2 detector_signal2

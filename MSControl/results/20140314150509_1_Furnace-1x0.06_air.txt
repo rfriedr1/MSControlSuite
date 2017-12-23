@@ -1,0 +1,20 @@
+== analysis info ==
+RunID:20140314150509
+AnalysisID:1
+AnalysisName:Furnace-1x0.06
+AnalysisType:air
+AnalysisDate:2014-03-14
+AnalysisTime:15:05:09
+== counters ==
+64 20.000000 
+64 20.000000 62 20.000000 
+
+
+== scan data ==
+== peak centers ==
+
+
+== analysis data ==
+== extrapolation results ==
+
+

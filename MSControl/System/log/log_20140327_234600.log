@@ -1,0 +1,161 @@
+3/27/2014	11:46 PM	System	=== logging started ===
+
+3/27/2014	11:46 PM	System	reading MSControl.ini prefs: SysChkInt=15000 ms; SysChkBuffer=1000
+3/27/2014	11:46 PM	System	found instr: Agilent_34980A
+3/27/2014	11:46 PM	System	found instr: Pfeiffer_MultiGauge_1
+3/27/2014	11:46 PM	System	found instr: Pfeiffer_MultiGauge_2
+3/27/2014	11:46 PM	System	found instr: Lakeshore_336
+3/27/2014	11:46 PM	System	found instr: Qtegra
+3/27/2014	11:46 PM	System	found instr: Simulated_PGaugeController
+3/27/2014	11:46 PM	System	found instrument class-name: Agilent 34980A
+3/27/2014	11:46 PM	System	found instrument-type: SwitchController
+3/27/2014	11:46 PM	System	found instrument class-name: Pfeiffer MultiGauge TPG256
+3/27/2014	11:46 PM	System	found instrument-type: PGaugeController
+3/27/2014	11:46 PM	System	found instrument class-name: Pfeiffer MultiGauge TPG256
+3/27/2014	11:46 PM	System	found instrument-type: PGaugeController
+3/27/2014	11:46 PM	System	found instrument class-name: Lakeshore_336
+3/27/2014	11:46 PM	System	found instrument-type: TempController
+3/27/2014	11:46 PM	System	found instrument class-name: Qtegra
+3/27/2014	11:46 PM	System	found instrument-type: Spectrometer
+3/27/2014	11:46 PM	System	found instrument class-name: Simulated_Instrument
+3/27/2014	11:46 PM	System	found instrument-type: PGaugeController
+3/27/2014	11:46 PM	System	class-name:Agilent 34980A.lvclass -.> class-path:C:\Users\Thermo\Documents\GitHub\HelixMC\MSControl\Classes\Instrument\Agilent 34980A\Agilent 34980A.lvclass
+3/27/2014	11:46 PM	System	class-name:Pfeiffer MultiGauge TPG256.lvclass -.> class-path:C:\Users\Thermo\Documents\GitHub\HelixMC\MSControl\Classes\Instrument\Pfeiffer MultiGauge TPG256\Pfeiffer MultiGauge TPG256.lvclass
+3/27/2014	11:46 PM	System	class-name:Pfeiffer MultiGauge TPG256.lvclass -.> class-path:C:\Users\Thermo\Documents\GitHub\HelixMC\MSControl\Classes\Instrument\Pfeiffer MultiGauge TPG256\Pfeiffer MultiGauge TPG256.lvclass
+3/27/2014	11:46 PM	System	class-name:Lakeshore_336.lvclass -.> class-path:C:\Users\Thermo\Documents\GitHub\HelixMC\MSControl\Classes\Instrument\Lakeshore_336\Lakeshore_336.lvclass
+3/27/2014	11:46 PM	System	class-name:Qtegra.lvclass -.> class-path:C:\Users\Thermo\Documents\GitHub\HelixMC\MSControl\Classes\Instrument\Qtegra\Qtegra.lvclass
+3/27/2014	11:46 PM	System	class-name:Simulated_Instrument.lvclass -.> class-path:C:\Users\Thermo\Documents\GitHub\HelixMC\MSControl\Classes\Instrument\Simulated_Instrument\Simulated_Instrument.lvclass
+3/27/2014	11:46 PM	System	instantiate instrument object:Agilent 34980A.lvclass
+3/27/2014	11:46 PM	System	instantiate instrument object:Pfeiffer MultiGauge TPG256.lvclass
+3/27/2014	11:46 PM	System	instantiate instrument object:Pfeiffer MultiGauge TPG256.lvclass
+3/27/2014	11:46 PM	System	instantiate instrument object:Lakeshore_336.lvclass
+3/27/2014	11:46 PM	System	instantiate instrument object:Qtegra.lvclass
+3/27/2014	11:46 PM	System	instantiate instrument object:Simulated_Instrument.lvclass
+3/27/2014	11:46 PM	Instrument Object	set VISA name of Agilent_34980A to: USB0::0x0957::0x0507::MY45000184::INSTR
+3/27/2014	11:46 PM	Instrument Object	set VISA name of Pfeiffer_MultiGauge_1 to: COM9
+3/27/2014	11:46 PM	Instrument Object	set VISA name of Pfeiffer_MultiGauge_2 to: COM10
+3/27/2014	11:46 PM	Instrument Object	set VISA name of Lakeshore_336 to: COM8
+3/27/2014	11:46 PM	Instrument Object	set VISA name of Qtegra to: localhost:1069
+3/27/2014	11:46 PM	Instrument Object	set VISA name of Simulated_PGaugeController to: 
+3/27/2014	11:46 PM	Instrument Object	init Instr: Agilent_34980A, ErrorCode=0
+3/27/2014	11:46 PM	Instrument Object	init Instr: Pfeiffer_MultiGauge_1, ErrorCode=0
+3/27/2014	11:46 PM	Instrument Object	init Instr: Pfeiffer_MultiGauge_2, ErrorCode=0
+3/27/2014	11:46 PM	Instrument Object	init Instr: Lakeshore_336, ErrorCode=0
+3/27/2014	11:46 PM	Instrument Object	init Instr: Qtegra, ErrorCode=0
+3/27/2014	11:46 PM	Instrument Object	init Instr: Simulated_PGaugeController, ErrorCode=0
+3/27/2014	11:46 PM	System	Instantiate SwitchObject - read prefs from switches.ini: name:1 - xloc:804 - yloc:281 - instr:Qtegra - shape:circle - size:6 - type:switch - ch:1 - default state:1
+3/27/2014	11:46 PM	System	Instantiate SwitchObject - read prefs from switches.ini: name:2 - xloc:762 - yloc:226 - instr:Agilent_34980A - shape:circle - size:6 - type:switch - ch:1001 - default state:0
+3/27/2014	11:46 PM	System	Instantiate SwitchObject - read prefs from switches.ini: name:3 - xloc:740 - yloc:281 - instr:Agilent_34980A - shape:circle - size:6 - type:switch - ch:1002 - default state:0
+3/27/2014	11:46 PM	System	Instantiate SwitchObject - read prefs from switches.ini: name:4 - xloc:740 - yloc:180 - instr:Agilent_34980A - shape:circle - size:6 - type:switch - ch:1003 - default state:1
+3/27/2014	11:46 PM	System	Instantiate SwitchObject - read prefs from switches.ini: name:5 - xloc:758 - yloc:143 - instr:Agilent_34980A - shape:circle - size:6 - type:switch - ch:1004 - default state:0
+3/27/2014	11:46 PM	System	Instantiate SwitchObject - read prefs from switches.ini: name:6 - xloc:758 - yloc:117 - instr:Agilent_34980A - shape:circle - size:6 - type:switch - ch:1005 - default state:0
+3/27/2014	11:46 PM	System	Instantiate SwitchObject - read prefs from switches.ini: name:7 - xloc:721 - yloc:143 - instr:Agilent_34980A - shape:circle - size:6 - type:switch - ch:1006 - default state:0
+3/27/2014	11:46 PM	System	Instantiate SwitchObject - read prefs from switches.ini: name:8 - xloc:721 - yloc:117 - instr:Agilent_34980A - shape:circle - size:6 - type:switch - ch:1007 - default state:0
+3/27/2014	11:46 PM	System	Instantiate SwitchObject - read prefs from switches.ini: name:9 - xloc:691 - yloc:281 - instr:Agilent_34980A - shape:circle - size:6 - type:switch - ch:1008 - default state:1
+3/27/2014	11:46 PM	System	Instantiate SwitchObject - read prefs from switches.ini: name:10 - xloc:663 - yloc:226 - instr:Agilent_34980A - shape:circle - size:6 - type:switch - ch:1009 - default state:1
+3/27/2014	11:46 PM	System	Instantiate SwitchObject - read prefs from switches.ini: name:11 - xloc:626 - yloc:203 - instr:Agilent_34980A - shape:circle - size:6 - type:switch - ch:1010 - default state:1
+3/27/2014	11:46 PM	System	Instantiate SwitchObject - read prefs from switches.ini: name:12 - xloc:626 - yloc:185 - instr:Agilent_34980A - shape:circle - size:6 - type:switch - ch:1011 - default state:1
+3/27/2014	11:46 PM	System	Instantiate SwitchObject - read prefs from switches.ini: name:13 - xloc:593 - yloc:226 - instr:Agilent_34980A - shape:circle - size:6 - type:switch - ch:1012 - default state:1
+3/27/2014	11:46 PM	System	Instantiate SwitchObject - read prefs from switches.ini: name:14 - xloc:549 - yloc:185 - instr:Agilent_34980A - shape:circle - size:6 - type:switch - ch:1013 - default state:1
+3/27/2014	11:46 PM	System	Instantiate SwitchObject - read prefs from switches.ini: name:15 - xloc:534 - yloc:173 - instr:Agilent_34980A - shape:circle - size:6 - type:switch - ch:1014 - default state:0
+3/27/2014	11:46 PM	System	Instantiate SwitchObject - read prefs from switches.ini: name:16 - xloc:483 - yloc:226 - instr:Agilent_34980A - shape:circle - size:6 - type:switch - ch:1015 - default state:1
+3/27/2014	11:46 PM	System	Instantiate SwitchObject - read prefs from switches.ini: name:17 - xloc:434 - yloc:206 - instr:Agilent_34980A - shape:circle - size:6 - type:switch - ch:1016 - default state:1
+3/27/2014	11:46 PM	System	Instantiate SwitchObject - read prefs from switches.ini: name:18 - xloc:434 - yloc:248 - instr:Agilent_34980A - shape:circle - size:6 - type:switch - ch:1017 - default state:0
+3/27/2014	11:46 PM	System	Instantiate SwitchObject - read prefs from switches.ini: name:19 - xloc:381 - yloc:397 - instr:Agilent_34980A - shape:circle - size:6 - type:switch - ch:1018 - default state:1
+3/27/2014	11:46 PM	System	Instantiate SwitchObject - read prefs from switches.ini: name:20 - xloc:381 - yloc:356 - instr:Agilent_34980A - shape:circle - size:6 - type:switch - ch:1019 - default state:0
+3/27/2014	11:46 PM	System	Instantiate SwitchObject - read prefs from switches.ini: name:21 - xloc:354 - yloc:356 - instr:Agilent_34980A - shape:circle - size:6 - type:switch - ch:1020 - default state:0
+3/27/2014	11:46 PM	System	Instantiate SwitchObject - read prefs from switches.ini: name:22 - xloc:326 - yloc:397 - instr:Agilent_34980A - shape:circle - size:6 - type:switch - ch:1021 - default state:0
+3/27/2014	11:46 PM	System	Instantiate SwitchObject - read prefs from switches.ini: name:23 - xloc:313 - yloc:347 - instr:Agilent_34980A - shape:circle - size:6 - type:switch - ch:1022 - default state:1
+3/27/2014	11:46 PM	System	Instantiate SwitchObject - read prefs from switches.ini: name:24 - xloc:267 - yloc:347 - instr:Agilent_34980A - shape:circle - size:6 - type:switch - ch:1023 - default state:1
+3/27/2014	11:46 PM	System	Instantiate SwitchObject - read prefs from switches.ini: name:25 - xloc:289 - yloc:381 - instr:Agilent_34980A - shape:circle - size:6 - type:switch - ch:1024 - default state:1
+3/27/2014	11:46 PM	System	Instantiate SwitchObject - read prefs from switches.ini: name:26 - xloc:253 - yloc:397 - instr:Agilent_34980A - shape:circle - size:6 - type:switch - ch:1025 - default state:0
+3/27/2014	11:46 PM	System	Instantiate SwitchObject - read prefs from switches.ini: name:27 - xloc:227 - yloc:397 - instr:Agilent_34980A - shape:circle - size:6 - type:switch - ch:1026 - default state:1
+3/27/2014	11:46 PM	System	Instantiate SwitchObject - read prefs from switches.ini: name:28 - xloc:226 - yloc:356 - instr:Agilent_34980A - shape:circle - size:6 - type:switch - ch:1027 - default state:1
+3/27/2014	11:46 PM	System	Instantiate SwitchObject - read prefs from switches.ini: name:29 - xloc:198 - yloc:397 - instr:Agilent_34980A - shape:circle - size:6 - type:switch - ch:1028 - default state:1
+3/27/2014	11:46 PM	System	Instantiate SwitchObject - read prefs from switches.ini: name:30 - xloc:158 - yloc:381 - instr:Agilent_34980A - shape:circle - size:6 - type:switch - ch:1029 - default state:1
+3/27/2014	11:46 PM	System	Instantiate SwitchObject - read prefs from switches.ini: name:31 - xloc:176 - yloc:471 - instr:Agilent_34980A - shape:circle - size:6 - type:switch - ch:1030 - default state:1
+3/27/2014	11:46 PM	System	Instantiate SwitchObject - read prefs from switches.ini: name:32 - xloc:189 - yloc:501 - instr:Agilent_34980A - shape:circle - size:6 - type:switch - ch:1031 - default state:0
+3/27/2014	11:46 PM	System	Instantiate SwitchObject - read prefs from switches.ini: name:33 - xloc:189 - yloc:527 - instr:Agilent_34980A - shape:circle - size:6 - type:switch - ch:1032 - default state:0
+3/27/2014	11:46 PM	System	Instantiate SwitchObject - read prefs from switches.ini: name:34 - xloc:162 - yloc:501 - instr:Agilent_34980A - shape:circle - size:6 - type:switch - ch:1033 - default state:0
+3/27/2014	11:46 PM	System	Instantiate SwitchObject - read prefs from switches.ini: name:35 - xloc:162 - yloc:527 - instr:Agilent_34980A - shape:circle - size:6 - type:switch - ch:1034 - default state:0
+3/27/2014	11:46 PM	System	Instantiate SwitchObject - read prefs from switches.ini: name:36 - xloc:131 - yloc:409 - instr:Agilent_34980A - shape:circle - size:6 - type:switch - ch:1035 - default state:0
+3/27/2014	11:46 PM	System	Instantiate SwitchObject - read prefs from switches.ini: name:37 - xloc:91 - yloc:409 - instr:Agilent_34980A - shape:circle - size:6 - type:switch - ch:1036 - default state:0
+3/27/2014	11:46 PM	System	Instantiate SwitchObject - read prefs from switches.ini: name:53 - xloc:132 - yloc:337 - instr:Agilent_34980A - shape:circle - size:6 - type:switch - ch:1037 - default state:0
+3/27/2014	11:46 PM	System	Instantiate SwitchObject - read prefs from switches.ini: name:39 - xloc:91 - yloc:337 - instr:Agilent_34980A - shape:circle - size:6 - type:switch - ch:1038 - default state:0
+3/27/2014	11:46 PM	System	Instantiate SwitchObject - read prefs from switches.ini: name:40 - xloc:132 - yloc:265 - instr:Agilent_34980A - shape:circle - size:6 - type:switch - ch:1039 - default state:0
+3/27/2014	11:46 PM	System	Instantiate SwitchObject - read prefs from switches.ini: name:41 - xloc:91 - yloc:265 - instr:Agilent_34980A - shape:circle - size:6 - type:switch - ch:1040 - default state:0
+3/27/2014	11:46 PM	System	Instantiate SwitchObject - read prefs from switches.ini: name:42 - xloc:132 - yloc:247 - instr:Agilent_34980A - shape:circle - size:6 - type:switch - ch:1041 - default state:0
+3/27/2014	11:46 PM	System	Instantiate SwitchObject - read prefs from switches.ini: name:43 - xloc:60 - yloc:409 - instr:Agilent_34980A - shape:circle - size:6 - type:switch - ch:1042 - default state:0
+3/27/2014	11:46 PM	System	Instantiate SwitchObject - read prefs from switches.ini: name:44 - xloc:19 - yloc:409 - instr:Agilent_34980A - shape:circle - size:6 - type:switch - ch:1043 - default state:0
+3/27/2014	11:46 PM	System	Instantiate SwitchObject - read prefs from switches.ini: name:45 - xloc:60 - yloc:337 - instr:Agilent_34980A - shape:circle - size:6 - type:switch - ch:1044 - default state:0
+3/27/2014	11:46 PM	System	Instantiate SwitchObject - read prefs from switches.ini: name:46 - xloc:19 - yloc:337 - instr:Agilent_34980A - shape:circle - size:6 - type:switch - ch:1045 - default state:0
+3/27/2014	11:46 PM	System	Instantiate SwitchObject - read prefs from switches.ini: name:47 - xloc:60 - yloc:265 - instr:Agilent_34980A - shape:circle - size:6 - type:switch - ch:1046 - default state:0
+3/27/2014	11:46 PM	System	Instantiate SwitchObject - read prefs from switches.ini: name:48 - xloc:19 - yloc:265 - instr:Agilent_34980A - shape:circle - size:6 - type:switch - ch:1047 - default state:0
+3/27/2014	11:46 PM	System	Instantiate SwitchObject - read prefs from switches.ini: name:49 - xloc:19 - yloc:247 - instr:Agilent_34980A - shape:circle - size:6 - type:switch - ch:1048 - default state:0
+3/27/2014	11:46 PM	System	Instantiate SwitchObject - read prefs from switches.ini: name:50 - xloc:352 - yloc:98 - instr:Agilent_34980A - shape:circle - size:6 - type:switch - ch:1049 - default state:1
+3/27/2014	11:46 PM	System	Instantiate SwitchObject - read prefs from switches.ini: name:51 - xloc:352 - yloc:58 - instr:Agilent_34980A - shape:circle - size:6 - type:switch - ch:1050 - default state:0
+3/27/2014	11:46 PM	System	Instantiate SwitchObject - read prefs from switches.ini: name:52 - xloc:324 - yloc:58 - instr:Agilent_34980A - shape:circle - size:6 - type:switch - ch:1051 - default state:0
+3/27/2014	11:46 PM	System	Instantiate SwitchObject - read prefs from switches.ini: name:53 - xloc:283 - yloc:98 - instr:Agilent_34980A - shape:circle - size:6 - type:switch - ch:1052 - default state:0
+3/27/2014	11:46 PM	System	Instantiate SwitchObject - read prefs from switches.ini: name:54 - xloc:283 - yloc:30 - instr:Agilent_34980A - shape:circle - size:6 - type:switch - ch:1053 - default state:0
+3/27/2014	11:46 PM	System	Instantiate SwitchObject - read prefs from switches.ini: name:55 - xloc:270 - yloc:49 - instr:Agilent_34980A - shape:circle - size:6 - type:switch - ch:1054 - default state:1
+3/27/2014	11:46 PM	System	Instantiate SwitchObject - read prefs from switches.ini: name:56 - xloc:225 - yloc:49 - instr:Agilent_34980A - shape:circle - size:6 - type:switch - ch:1055 - default state:1
+3/27/2014	11:46 PM	System	Instantiate SwitchObject - read prefs from switches.ini: name:57 - xloc:246 - yloc:83 - instr:Agilent_34980A - shape:circle - size:6 - type:switch - ch:1056 - default state:1
+3/27/2014	11:46 PM	System	Instantiate SwitchObject - read prefs from switches.ini: name:58 - xloc:211 - yloc:98 - instr:Agilent_34980A - shape:circle - size:6 - type:switch - ch:1057 - default state:0
+3/27/2014	11:46 PM	System	Instantiate SwitchObject - read prefs from switches.ini: name:59 - xloc:161 - yloc:98 - instr:Agilent_34980A - shape:circle - size:6 - type:switch - ch:1058 - default state:1
+3/27/2014	11:46 PM	System	Instantiate SwitchObject - read prefs from switches.ini: name:60 - xloc:84 - yloc:98 - instr:Agilent_34980A - shape:circle - size:6 - type:switch - ch:1059 - default state:1
+3/27/2014	11:46 PM	System	Instantiate SwitchObject - read prefs from switches.ini: name:61 - xloc:98 - yloc:128 - instr:Agilent_34980A - shape:circle - size:6 - type:switch - ch:1060 - default state:0
+3/27/2014	11:46 PM	System	Instantiate SwitchObject - read prefs from switches.ini: name:62 - xloc:98 - yloc:154 - instr:Agilent_34980A - shape:circle - size:6 - type:switch - ch:1061 - default state:0
+3/27/2014	11:46 PM	System	Instantiate SwitchObject - read prefs from switches.ini: name:63 - xloc:71 - yloc:128 - instr:Agilent_34980A - shape:circle - size:6 - type:switch - ch:1062 - default state:0
+3/27/2014	11:46 PM	System	Instantiate SwitchObject - read prefs from switches.ini: name:64 - xloc:71 - yloc:154 - instr:Agilent_34980A - shape:circle - size:6 - type:switch - ch:1063 - default state:0
+3/27/2014	11:46 PM	System	Instantiate SwitchObject - read prefs from switches.ini: name:65 - xloc:227 - yloc:453 - instr:Agilent_34980A - shape:circle - size:6 - type:switch - ch:1064 - default state:1
+3/27/2014	11:47 PM	PrepLineObject	Instantiate SystemDevice - read prefs from SystemDevices.ini: name:P1 - xloc:752 - yloc:318 - instr:Simulated_PGaugeController - ch:1 - type:PGauge - shape:1 - size:40 - subch:0  - conversion:
+3/27/2014	11:47 PM	PrepLineObject	Instantiate SystemDevice - read prefs from SystemDevices.ini: name:P2 - xloc:618 - yloc:308 - instr:Pfeiffer_MultiGauge_1 - ch:1 - type:PGauge - shape:1 - size:40 - subch:0  - conversion:
+3/27/2014	11:47 PM	PrepLineObject	Instantiate SystemDevice - read prefs from SystemDevices.ini: name:P3 - xloc:643 - yloc:172 - instr:Pfeiffer_MultiGauge_1 - ch:2 - type:PGauge - shape:1 - size:40 - subch:0  - conversion:
+3/27/2014	11:47 PM	PrepLineObject	Instantiate SystemDevice - read prefs from SystemDevices.ini: name:P4 - xloc:566 - yloc:345 - instr:Pfeiffer_MultiGauge_1 - ch:3 - type:PGauge - shape:1 - size:40 - subch:0  - conversion:
+3/27/2014	11:47 PM	PrepLineObject	Instantiate SystemDevice - read prefs from SystemDevices.ini: name:P5 - xloc:445 - yloc:139 - instr:Agilent_34980A - ch:2001 - type:PGauge - shape:1 - size:40 - subch:0  - conversion:TPR018
+3/27/2014	11:47 PM	PrepLineObject	Instantiate SystemDevice - read prefs from SystemDevices.ini: name:P6 - xloc:332 - yloc:440 - instr:Pfeiffer_MultiGauge_1 - ch:4 - type:PGauge - shape:1 - size:40 - subch:0  - conversion:
+3/27/2014	11:47 PM	PrepLineObject	Instantiate SystemDevice - read prefs from SystemDevices.ini: name:P7 - xloc:250 - yloc:473 - instr:Pfeiffer_MultiGauge_1 - ch:5 - type:PGauge - shape:1 - size:40 - subch:0  - conversion:
+3/27/2014	11:47 PM	PrepLineObject	Instantiate SystemDevice - read prefs from SystemDevices.ini: name:P8 - xloc:205 - yloc:289 - instr:Pfeiffer_MultiGauge_1 - ch:6 - type:PGauge - shape:1 - size:40 - subch:0  - conversion:
+3/27/2014	11:47 PM	PrepLineObject	Instantiate SystemDevice - read prefs from SystemDevices.ini: name:P9 - xloc:155 - yloc:289 - instr:Agilent_34980A - ch:2002 - type:PGauge - shape:1 - size:40 - subch:0  - conversion:TPR018
+3/27/2014	11:47 PM	PrepLineObject	Instantiate SystemDevice - read prefs from SystemDevices.ini: name:P10 - xloc:298 - yloc:141 - instr:Pfeiffer_MultiGauge_2 - ch:1 - type:PGauge - shape:1 - size:40 - subch:0  - conversion:
+3/27/2014	11:47 PM	PrepLineObject	Instantiate SystemDevice - read prefs from SystemDevices.ini: name:P11 - xloc:208 - yloc:155 - instr:Pfeiffer_MultiGauge_2 - ch:2 - type:PGauge - shape:1 - size:40 - subch:0  - conversion:
+3/27/2014	11:47 PM	PrepLineObject	Instantiate SystemDevice - read prefs from SystemDevices.ini: name:P12 - xloc:148 - yloc:2 - instr:Agilent_34980A - ch:2003 - type:PGauge - shape:1 - size:40 - subch:0  - conversion:TPR018
+3/27/2014	11:47 PM	PrepLineObject	Instantiate SystemDevice - read prefs from SystemDevices.ini: name:P13 - xloc:193 - yloc:178 - instr:Pfeiffer_MultiGauge_2 - ch:3 - type:PGauge - shape:1 - size:40 - subch:0  - conversion:
+3/27/2014	11:47 PM	PrepLineObject	Instantiate SystemDevice - read prefs from SystemDevices.ini: name:24K - xloc:476 - yloc:260 - instr:Lakeshore_336 - ch:3 - type:TGauge - shape:2 - size:40 - subch:2  - conversion:
+3/27/2014	11:47 PM	PrepLineObject	Instantiate SystemDevice - read prefs from SystemDevices.ini: name:10K - xloc:560 - yloc:260 - instr:Lakeshore_336 - ch:1 - type:TGauge - shape:2 - size:40 - subch:1  - conversion:
+3/27/2014	11:47 PM	MagFieldTable	add MagFieldTable: Qtegra
+3/27/2014	11:47 PM	MagFieldTable	He4, He4,0.503610
+
+3/27/2014	11:47 PM	MagFieldTable	He3, He3,0.393800
+
+3/27/2014	11:47 PM	System	instantiate script messages object
+3/27/2014	11:47 PM	System	Open main window, PrepLineWindow and Status window
+
+=== startup completed ===
+
+3/27/2014	11:47 PM	PrepLineWindow	load PrepLine PictureSystem\images\Prepline.jpg
+3/27/2014	11:47 PM	System	read all SystemDevice values: 0;1.055000E-8;-4.800000E-4;1.019000E-3;-0.000746;1.065000E-8;1.958000E-3;1.000000E-2;-0.000534;1.430000E-8;6.939000E-4;-0.000601;2.000000E-2;24.0;130.0
+
+3/27/2014	11:47 PM	Script	plot_open(He3)
+3/27/2014	11:47 PM	Script	plot_xlabel(He3;analysis_time)
+3/27/2014	11:47 PM	Script	plot_ylabel(He3;detector_signal)
+3/27/2014	11:47 PM	Script	wait(2)
+3/27/2014	11:47 PM	System	read all SystemDevice values: 0;1.054000E-8;-4.900000E-4;1.015000E-3;-0.000748;1.066000E-8;1.955000E-3;1.000000E-2;-0.000532;1.429000E-8;6.919000E-4;-0.000598;2.000000E-2;24.0;130.0
+
+3/27/2014	11:48 PM	System	read all SystemDevice values: 0;1.052000E-8;-5.000000E-4;1.016000E-3;-0.000743;1.061000E-8;1.955000E-3;1.000000E-2;-0.000531;1.430000E-8;6.944000E-4;-0.000597;2.000000E-2;24.0;130.0
+
+3/27/2014	11:48 PM	System	read all SystemDevice values: 0;1.056000E-8;-4.800000E-4;1.017000E-3;-0.000744;1.064000E-8;1.967000E-3;1.000000E-2;-0.000534;1.430000E-8;6.924000E-4;-0.000599;2.000000E-2;24.0;130.0
+
+3/27/2014	11:48 PM	System	read all SystemDevice values: 0;1.055000E-8;-5.000000E-4;1.017000E-3;-0.000750;1.064000E-8;1.953000E-3;1.000000E-2;-0.000532;1.437000E-8;6.939000E-4;-0.000597;2.000000E-2;24.0;130.0
+
+3/27/2014	11:48 PM	System	read all SystemDevice values: 0;1.055000E-8;-4.900000E-4;1.019000E-3;-0.000747;1.068000E-8;1.951000E-3;1.100000E-2;-0.000531;1.429000E-8;6.949000E-4;-0.000598;2.000000E-2;24.0;130.0
+
+3/27/2014	11:49 PM	System	read all SystemDevice values: 0;1.056000E-8;-4.900000E-4;1.017000E-3;-0.000745;1.068000E-8;1.958000E-3;1.000000E-2;-0.000534;1.434000E-8;6.929000E-4;-0.000600;2.000000E-2;24.0;130.0
+
+3/27/2014	11:49 PM	System	read all SystemDevice values: 0;1.051000E-8;-4.900000E-4;1.016000E-3;-0.000738;1.068000E-8;1.955000E-3;1.000000E-2;-0.000533;1.430000E-8;6.934000E-4;-0.000598;2.000000E-2;24.0;130.0
+
+3/27/2014	11:49 PM	Script	plot_open(He3)
+3/27/2014	11:49 PM	System	read all SystemDevice values: 0;1.052000E-8;-5.100000E-4;1.016000E-3;-0.000738;1.065000E-8;1.950000E-3;9.000000E-3;-0.000532;1.432000E-8;6.934000E-4;-0.000597;2.000000E-2;24.0;130.0
+
+3/27/2014	11:49 PM	System	read all SystemDevice values: 0;1.054000E-8;-5.000000E-4;1.017000E-3;-0.000744;1.064000E-8;1.955000E-3;1.000000E-2;-0.000533;1.429000E-8;6.914000E-4;-0.000600;2.000000E-2;24.0;130.0
+

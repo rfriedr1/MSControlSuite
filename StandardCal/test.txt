@@ -1,0 +1,7 @@
+[Name:test]
+temp = 21.000000
+pressure = 990.000000
+humidity = 0.000000
+calvol = 10670.000000
+pipvol = 0.214800
+addvol = 11.000000

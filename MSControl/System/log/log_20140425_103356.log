@@ -1,0 +1,4 @@
+4/25/2014	10:33 AM	System	=== logging started ===
+
+4/25/2014	10:33 AM	Script	plot_open(testplot)
+4/25/2014	10:34 AM	Script	plot_fit_data(testplot;linear)

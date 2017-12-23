@@ -1,0 +1,19 @@
+== analysis info ==
+RunID:20140313122414
+AnalysisID:1
+AnalysisName:2
+AnalysisType:3
+AnalysisDate:2014-03-13
+AnalysisTime:12:24:14
+== counters ==
+64 20.000000 0.000000
+
+
+== scan data ==
+== peak centers ==
+
+
+== analysis data ==
+== extrapolation results ==
+
+

@@ -1,0 +1,2 @@
+analysis_session_add_switch_counter 64
+wait 5

@@ -1,0 +1,40 @@
+== analysis info ==
+RunID:20140314152427
+AnalysisID:1
+AnalysisName:Furnace-1x0.06
+AnalysisType:air
+AnalysisDate:2014-03-14
+AnalysisTime:15:24:27
+== counters ==
+64 20.000000 
+62 20.000000 
+
+
+== scan data ==
+He4Scan 0.503010 -0.379181 
+He4Scan 0.503030 -0.903985 
+He4Scan 0.503050 1.045426 
+He4Scan 0.503070 0.295607 
+He4Scan 0.503090 -0.679073 
+
+
+He3Scan 0.392600 0.000000 
+He3Scan 0.392650 0.000000 
+He3Scan 0.392700 0.000000 
+He3Scan 0.392750 0.000000 
+
+
+== peak centers ==
+
+
+== analysis data ==
+He4 67.021833 3.802343 
+
+
+He3 77.757447 0.000000 
+He3 84.579838 0.000000 
+
+
+== extrapolation results ==
+
+

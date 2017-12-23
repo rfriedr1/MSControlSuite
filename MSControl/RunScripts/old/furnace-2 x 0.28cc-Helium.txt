@@ -1,0 +1,252 @@
+// script preps a 0.28cc furnace standard 
+// no splits
+// and freezes over He and Ne to 10K trap
+// 24K trap at 24K, 10K trap at 10K
+//
+// gas is not being gettered in the getters, this is for helium only
+//
+// Feb/01/2014
+// Ronny Friedrich
+
+message "starting 0.28cc furnace std"
+wait 2
+
+message "set to starting positions"
+
+set_temp 24K 24 500
+set_temp 10K 120 500
+
+close 2
+close 4
+
+// close getter V3 to reduce background
+close 3
+
+close 18
+
+close 61
+close 62
+close 63
+close 64
+
+close 59
+close 58
+close 53
+
+close 54
+close 52
+close 51
+
+close 15
+
+wait 2
+
+message "cleaning line"
+close 17
+open 50
+//open 54
+//wait 20
+//open 51
+//open 52
+wait 10
+open 55
+open 56
+open 57
+//open 59
+open 60
+
+set_temp 10K 5 500
+
+close 14
+wait 2
+
+// alert "add dry ice to cold trap"
+// wait 2
+// alert "activate getter V51 & V52"
+
+message "pump outer pipette valve"
+open 61
+
+wait 90
+
+close 61
+close 57
+close 56
+close 55
+wait 2
+open 17
+
+// =======================================
+// run two shot of 0.06cc furnace standard
+message "start standard - 1st shot"
+close 61
+wait 10
+open 62
+wait 30
+close 62
+wait 10
+open 61
+
+message "check gauges"
+wait 5
+
+close 55
+wait 2
+open 56
+wait 30
+close 56
+
+message "start standard - 2nd shot"
+close 61
+wait 10
+open 62
+wait 30
+close 62
+wait 10
+open 61
+
+// =======================================
+
+close 54
+close 51
+close 52
+close 56
+close 55
+
+close 17
+close 50
+
+wait 2
+
+message "trap water vapor in cold trap"
+
+open 56
+
+wait 240
+
+open 55
+wait 10
+
+close 61
+wait 2
+
+// don't getter here since this is for helium only
+message "getter standard"
+// open 51
+// open 52
+// wait 1800
+
+
+// ===============================
+message "transfer gas to 24K trap"
+set_temp 24K 24 5
+close 15
+close 18
+
+wait 2
+
+open 17
+open 16
+wait 480
+
+// ===============================
+message "transfer gas to 10K trap"
+set_temp 10K 5 500
+close 13
+wait 2
+open 14
+open 15
+wait 480
+close 14
+close 15
+wait 2
+
+// ===============================
+message "cleaning prepline"
+open 50
+open 57
+wait 1
+
+// ===============================
+message "set cryo to 45"
+set_temp 10K 45 50
+
+// ===============================
+message "transfer gas to inlet and clean"
+close 13
+wait 30
+set_temp 10K 45 2
+open 14
+wait 120
+close 11
+close 12
+close 9
+//open 3
+close 2
+wait 2
+open 10
+open 13
+
+// ===============================
+message "Helium ready for inlet"
+
+//alert "start analysis?"
+
+// ======= start new analysis session ======
+analysis_session_new 1 Furnace-2x0.28 air
+wait 3
+analysis_session_add_standard_data air-furnace
+analysis_session_add_pipette_data pip2 2
+wait 3
+
+
+// close pump valve
+close 1
+wait 2
+// open inlet valve
+open 2
+
+// set time zero
+set_time_zero Qtegra
+wait 2
+
+message "equilibrate into MS"
+wait 30
+close 2
+wait 1
+
+// open analysis script
+open_script Analysis-Helium-H2-H1CDD.txt
+wait 2
+
+// clean prepline while sample is in MS
+set_temp 10K 130 500
+open 9
+// clean pipette
+close 56
+close 57
+close 62
+wait 5
+open 58
+open 61
+wait 30
+close 61
+wait 5
+close 58
+close 17
+wait 1
+open 57
+open 56
+wait 30
+open 17
+
+//wait for analysis to finish
+stop_and_wait analysis1
+
+wait 3
+
+// open pump valve
+open 1
+wait 60
+
+message "finished"
