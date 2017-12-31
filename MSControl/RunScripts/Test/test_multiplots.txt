@@ -1,3 +1,8 @@
+analysis_session_new
+analysis_session_add_standard_data(furnace)
+analysis_session_add_pipette_data(pip1;3)
+
+
 plot_open(He3)
 plot_xlabel(He3;analysis_time)
 plot_ylabel(He3;detector_signal)
@@ -21,10 +26,11 @@ multisignal_vs_time(simulated_spectrometer;He3;H1_CDD,H2_CDD;1;0.1) ->He3,He4
 multisignal_vs_time(simulated_spectrometer;He3;H1_CDD,H2_CDD;1;0.1) ->He3,He4
 multisignal_vs_time(simulated_spectrometer;He3;H1_CDD,H2_CDD;1;0.1) ->He3,He4
 
-
-
 plot_fit_data(He4;linear)
 plot_fit_data(He3;linear)
+
+analysis_session_dump
+analysis_session_close
 
 //wait(3)
 
