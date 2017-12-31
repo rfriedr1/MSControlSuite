@@ -14,6 +14,12 @@ multisignal_vs_time(simulated_spectrometer;He3;H1_CDD,H2_CDD;1;0.1) ->He3,He4
 multisignal_vs_time(simulated_spectrometer;He3;H1_CDD,H2_CDD;1;0.1) ->He3,He4
 multisignal_vs_time(simulated_spectrometer;He3;H1_CDD,H2_CDD;1;0.1) ->He3,He4
 multisignal_vs_time(simulated_spectrometer;He3;H1_CDD,H2_CDD;1;0.1) ->He3,He4
+multisignal_vs_time(simulated_spectrometer;He3;H1_CDD,H2_CDD;1;0.1) ->He3,He4
+multisignal_vs_time(simulated_spectrometer;He3;H1_CDD,H2_CDD;1;0.1) ->He3,He4
+multisignal_vs_time(simulated_spectrometer;He3;H1_CDD,H2_CDD;1;0.1) ->He3,He4
+multisignal_vs_time(simulated_spectrometer;He3;H1_CDD,H2_CDD;1;0.1) ->He3,He4
+multisignal_vs_time(simulated_spectrometer;He3;H1_CDD,H2_CDD;1;0.1) ->He3,He4
+multisignal_vs_time(simulated_spectrometer;He3;H1_CDD,H2_CDD;1;0.1) ->He3,He4
 
 
 
