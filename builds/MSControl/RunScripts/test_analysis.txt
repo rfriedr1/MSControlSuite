@@ -1,6 +1,0 @@
-wait(5)
-analysis_session_new(99;furnace;air)
-analysis_session_add_standard_data(furnace)
-analysis_session_add_pipette_data(pip1;3)
-analysis_session_dump
-analysis_session_close

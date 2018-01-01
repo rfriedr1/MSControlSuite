@@ -1,0 +1,4 @@
+message "set 10K trap"
+set_temp 24K 24 5
+wait 5
+message "temp reached"

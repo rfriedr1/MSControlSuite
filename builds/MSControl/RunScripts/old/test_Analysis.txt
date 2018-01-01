@@ -1,0 +1,5 @@
+analysis_session_new
+analysis_session_add_standard_data air-furnace
+analysis_session_add_pipette_data pip1 3
+analysis_session_dump
+analysis_session_close

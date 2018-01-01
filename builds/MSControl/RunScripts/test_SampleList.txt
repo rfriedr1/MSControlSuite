@@ -1,6 +1,0 @@
-message(start script)
-wait(5)
-message(finish script)
-wait(1)
-samplelist_proceed
-close_window

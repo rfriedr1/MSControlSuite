@@ -148,7 +148,7 @@
 				<Property Name="Bld_previewCacheID" Type="Str">{B77D7334-8EA9-4E80-90CE-F8116BFB71FF}</Property>
 				<Property Name="Bld_supportedLanguage[0]" Type="Str">English</Property>
 				<Property Name="Bld_supportedLanguageCount" Type="Int">1</Property>
-				<Property Name="Bld_version.build" Type="Int">214</Property>
+				<Property Name="Bld_version.build" Type="Int">217</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">MSControl.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/MSControl/MSControl.exe</Property>
@@ -306,7 +306,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{4610CBAA-5DA6-4484-9F0F-3541E0162DC0}</Property>
-				<Property Name="Bld_version.build" Type="Int">69</Property>
+				<Property Name="Bld_version.build" Type="Int">70</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">MSEval.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/MSEval/MSEval.exe</Property>

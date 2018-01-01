@@ -1,0 +1,7 @@
+analysis_session_new HeliumAnalysis 1 Furnace-1x0.06 air
+wait 3
+analysis_session_add_switch_counter HeliumAnalysis 64
+analysis_session_add_switch_counter HeliumAnalysis 62
+wait 3
+analysis_session_dump HeliumAnalysis
+analysis_session_close HeliumAnalysis
