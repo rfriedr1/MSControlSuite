@@ -16,6 +16,16 @@
 *.lvlps
 
 # =========================
+# MSControlSuite files
+# =========================
+
+/builds/MSControl/System/log/**
+/builds/MSControl/results/**
+
+/MSControl/System/log/**
+/MSControl/results/**
+
+# =========================
 # Operating System Files
 # =========================
 
