@@ -1,0 +1,172 @@
+// script preps a 0.28cc furnace standard 
+// splits the standard 3 times throuch various volumes (V59, V60)
+// and freezes over He and Ne to 10K trap
+// 24K trap at 24K, 10K trap at 10K
+//
+// Splitting ratio to normal standard: 100
+//
+// Nov/13/2013
+// Ronny Friedrich
+
+message "starting 0.28cc furnace std"
+wait 2
+
+message "set to starting positions"
+
+set_temp 24K 24 500
+set_temp 10K 120 500
+
+close 18
+
+close 61
+close 62
+
+close 63
+close 64
+
+close 59
+close 58
+close 53
+
+close 54
+close 52
+close 51
+
+close 17
+close 15
+
+wait 5
+
+message "cleaning line"
+
+open 50
+
+// open 54
+// wait 20
+
+open 51
+open 52
+
+wait 20
+
+open 55
+open 56
+open 57
+open 59
+open 60
+
+set_temp 10K 5 500
+
+close 14
+wait 2
+
+alert "add dry ice to cold trap"
+wait 2
+alert "activate getter V51 & V52"
+
+message "pump outer pipette valve"
+open 61
+
+wait 120
+
+close 61
+close 57
+close 56
+close 55
+wait 2
+
+// =======================================
+// run one shot of 0.28cc furnace standard
+message "start standard"
+close 61
+wait 10
+open 62
+wait 30
+close 62
+wait 10
+open 61
+
+message "check gauges"
+wait 120
+
+// ==========================
+// first gas split
+
+message "splitting gas"
+close 59
+
+close 54
+close 51
+close 52
+close 56
+close 55
+
+wait 2
+
+open 57
+
+wait 600
+
+close 61
+wait 2
+
+close 57
+close 50
+
+wait 2
+
+message "trap water vapor in cold trap"
+
+open 59
+
+open 56
+
+wait 180
+
+
+// ==========================
+// another split happens here
+close 60
+
+wait 2
+
+open 55
+wait 30
+
+message "getter standard"
+open 51
+open 52
+wait 1600
+
+
+// ===============================
+message "transfer gas to 24K trap"
+set_temp 25K 24 5
+close 15
+
+// ==========================
+// another split
+
+// close 51
+// close 52
+
+wait 2
+
+open 17
+open 16
+wait 480
+
+// ===============================
+message "transfer gas to 10K trap"
+set_temp 10K 5 500
+close 13
+wait 2
+open 14
+open 15
+wait 360
+close 14
+close 15
+
+close 16
+
+message "DONE!"

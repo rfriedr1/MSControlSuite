@@ -1,0 +1,23 @@
+plot_open He3
+plot_xlabel He3 analysis_time
+plot_ylabel He3 detector_signal
+
+wait 2
+
+plot_open He4
+plot_xlabel He4 analysis_time2
+plot_ylabel He4 detector_signal2
+
+wait 2
+
+signal_vs_time Qtegra He3 H1_CDD 0.2 1 ->He3
+signal_vs_time Qtegra He3 H1_CDD 0.2 1 ->He3
+signal_vs_time Qtegra He3 H1_CDD 0.2 1 ->He4
+signal_vs_time Qtegra He3 H1_CDD 0.2 1 ->He4
+
+plot_fit_data He4 linear
+plot_fit_data He3 linear
+wait 3
+
+plot_close He3
+plot_close He4

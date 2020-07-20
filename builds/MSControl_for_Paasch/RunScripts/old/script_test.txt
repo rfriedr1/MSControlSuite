@@ -1,0 +1,11 @@
+message "this is a test"
+
+message "starting subscript"
+open_script subscript.txt
+wait 2
+
+
+stop_and_wait test1
+
+
+message "subscript finished"

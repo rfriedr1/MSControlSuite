@@ -1,0 +1,17 @@
+plot_open He4Scan
+plot_xlabel He4Scan magnetDAC
+plot_ylabel He4Scan He4Signal
+wait 3
+
+plot_open He3Scan
+plot_xlabel He3Scan magnetDAC
+plot_ylabel He3Scan He4Signal
+wait 3
+
+
+// close all plots
+plot_close He3Scan
+plot_close He4Scan
+
+proceed test1
+close_window

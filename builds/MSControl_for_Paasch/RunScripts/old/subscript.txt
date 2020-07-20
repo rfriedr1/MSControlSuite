@@ -1,0 +1,7 @@
+message "subscript loaded"
+wait 2
+
+proceed test1
+wait 2
+
+close_window
